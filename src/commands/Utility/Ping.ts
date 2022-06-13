@@ -1,7 +1,7 @@
 import { ICommand } from 'wokcommands';
 
 export default {
-	category: 'Utilities',
+	category: 'Utility',
 	description: 'Replies with pong', // Required for slash commands
 
 	slash: 'both', // Create both a slash and legacy command

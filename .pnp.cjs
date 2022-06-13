@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:17.0.42"],\
             ["consola", "npm:2.15.3"],\
             ["discord.js", "npm:13.8.0"],\
+            ["discord.js-docs", "npm:0.3.0"],\
             ["dotenv", "npm:16.0.1"],\
             ["husky", "npm:8.0.1"],\
             ["lint-staged", "npm:13.0.1"],\
@@ -1081,6 +1082,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["common-tags", [\
+        ["npm:1.8.2", {\
+          "packageLocation": "./.yarn/cache/common-tags-npm-1.8.2-2c30ba69b3-767a6255a8.zip/node_modules/common-tags/",\
+          "packageDependencies": [\
+            ["common-tags", "npm:1.8.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["compare-func", [\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/compare-func-npm-2.0.0-9cd7852f23-fb71d70632.zip/node_modules/compare-func/",\
@@ -1327,8 +1337,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/ws", "npm:8.5.3"],\
             ["discord-api-types", "npm:0.33.5"],\
             ["form-data", "npm:4.0.0"],\
-            ["node-fetch", "virtual:39d0b3429d493513b1f5e1aad7e37e108d80b3d00c37010a0fd1a6c0dc78f7302b645fcae86d3dfd3c94cbad23f456bfe8a4dbda3a0efb33b7a278f1826828c0#npm:2.6.7"],\
+            ["node-fetch", "virtual:a0a1d174d732ea88a65e00e6e84ebabe8cd3abcf486d87276255d53ea7a03a05771f94b9a0f91cba2902b48298aeabe9bf47a13452809a7a520a4435842f1aad#npm:2.6.7"],\
             ["ws", "virtual:39d0b3429d493513b1f5e1aad7e37e108d80b3d00c37010a0fd1a6c0dc78f7302b645fcae86d3dfd3c94cbad23f456bfe8a4dbda3a0efb33b7a278f1826828c0#npm:8.8.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["discord.js-docs", [\
+        ["npm:0.3.0", {\
+          "packageLocation": "./.yarn/cache/discord.js-docs-npm-0.3.0-a0a1d174d7-7014d6c6fc.zip/node_modules/discord.js-docs/",\
+          "packageDependencies": [\
+            ["discord.js-docs", "npm:0.3.0"],\
+            ["common-tags", "npm:1.8.2"],\
+            ["fuse.js", "npm:3.6.1"],\
+            ["node-fetch", "virtual:a0a1d174d732ea88a65e00e6e84ebabe8cd3abcf486d87276255d53ea7a03a05771f94b9a0f91cba2902b48298aeabe9bf47a13452809a7a520a4435842f1aad#npm:2.6.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1600,6 +1622,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/function-bind-npm-1.1.1-b56b322ae9-b32fbaebb3.zip/node_modules/function-bind/",\
           "packageDependencies": [\
             ["function-bind", "npm:1.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["fuse.js", [\
+        ["npm:3.6.1", {\
+          "packageLocation": "./.yarn/cache/fuse.js-npm-3.6.1-d9c14471d8-958aa877ac.zip/node_modules/fuse.js/",\
+          "packageDependencies": [\
+            ["fuse.js", "npm:3.6.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2617,10 +2648,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:39d0b3429d493513b1f5e1aad7e37e108d80b3d00c37010a0fd1a6c0dc78f7302b645fcae86d3dfd3c94cbad23f456bfe8a4dbda3a0efb33b7a278f1826828c0#npm:2.6.7", {\
-          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-c924faec06/0/cache/node-fetch-npm-2.6.7-777aa2a6df-8d816ffd1e.zip/node_modules/node-fetch/",\
+        ["virtual:a0a1d174d732ea88a65e00e6e84ebabe8cd3abcf486d87276255d53ea7a03a05771f94b9a0f91cba2902b48298aeabe9bf47a13452809a7a520a4435842f1aad#npm:2.6.7", {\
+          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-8c440ca46a/0/cache/node-fetch-npm-2.6.7-777aa2a6df-8d816ffd1e.zip/node_modules/node-fetch/",\
           "packageDependencies": [\
-            ["node-fetch", "virtual:39d0b3429d493513b1f5e1aad7e37e108d80b3d00c37010a0fd1a6c0dc78f7302b645fcae86d3dfd3c94cbad23f456bfe8a4dbda3a0efb33b7a278f1826828c0#npm:2.6.7"],\
+            ["node-fetch", "virtual:a0a1d174d732ea88a65e00e6e84ebabe8cd3abcf486d87276255d53ea7a03a05771f94b9a0f91cba2902b48298aeabe9bf47a13452809a7a520a4435842f1aad#npm:2.6.7"],\
             ["@types/encoding", null],\
             ["encoding", null],\
             ["whatwg-url", "npm:5.0.0"]\
@@ -2989,6 +3020,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:17.0.42"],\
             ["consola", "npm:2.15.3"],\
             ["discord.js", "npm:13.8.0"],\
+            ["discord.js-docs", "npm:0.3.0"],\
             ["dotenv", "npm:16.0.1"],\
             ["husky", "npm:8.0.1"],\
             ["lint-staged", "npm:13.0.1"],\

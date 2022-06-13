@@ -914,6 +914,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"common-tags@npm:^1.8.0":
+  version: 1.8.2
+  resolution: "common-tags@npm:1.8.2"
+  checksum: 767a6255a84bbc47df49a60ab583053bb29a7d9687066a18500a516188a062c4e4cd52de341f22de0b07062e699b1b8fe3cfa1cb55b241cb9301aeb4f45b4dff
+  languageName: node
+  linkType: hard
+
 "compare-func@npm:^2.0.0":
   version: 2.0.0
   resolution: "compare-func@npm:2.0.0"
@@ -1091,6 +1098,17 @@ __metadata:
   version: 0.33.5
   resolution: "discord-api-types@npm:0.33.5"
   checksum: 6dcaad640c5693a69c9a4f5e444e739dde11ba835164ae6fd3dd5a1ab7b4d7f96cd022ed653eeaff2c8051ead0d998a5d502a2915cfacdde596364b82d9e3b3f
+  languageName: node
+  linkType: hard
+
+"discord.js-docs@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "discord.js-docs@npm:0.3.0"
+  dependencies:
+    common-tags: ^1.8.0
+    fuse.js: ^3.4.6
+    node-fetch: ^2.6.7
+  checksum: 7014d6c6fc6fd254f1d891a49c7789be938fd460aa5893b8fb1029a934251a8815f246c6cce694963d5a92822e00a8a88b45a849f31afcc73952fba5e337bde1
   languageName: node
   linkType: hard
 
@@ -1359,6 +1377,13 @@ __metadata:
   version: 1.1.1
   resolution: "function-bind@npm:1.1.1"
   checksum: b32fbaebb3f8ec4969f033073b43f5c8befbb58f1a79e12f1d7490358150359ebd92f49e72ff0144f65f2c48ea2a605bff2d07965f548f6474fd8efd95bf361a
+  languageName: node
+  linkType: hard
+
+"fuse.js@npm:^3.4.6":
+  version: 3.6.1
+  resolution: "fuse.js@npm:3.6.1"
+  checksum: 958aa877ace65dc900df776becd39a03df68d7eebc7890b5fd2fc8c5d88e2fff238f60c37f80013ce70e9d9e7ac8efa9f503695fdd23d1eca3cc983797b50191
   languageName: node
   linkType: hard
 
@@ -2247,7 +2272,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.6.1":
+"node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.7":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
   dependencies:
@@ -2574,6 +2599,7 @@ __metadata:
     "@types/node": ^17.0.42
     consola: ^2.15.3
     discord.js: ^13.8.0
+    discord.js-docs: ^0.3.0
     dotenv: ^16.0.1
     husky: ^8.0.1
     lint-staged: ^13.0.1
