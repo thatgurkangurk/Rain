@@ -7,6 +7,7 @@ COPY yarn.lock ./
 
 RUN yarn
 
-COPY . . 
+COPY . .
+ENV DISCORD_TOKEN, MONGO_PASSWORD
 
 CMD [ "yarn", "start" ]
