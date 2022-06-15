@@ -1,0 +1,6 @@
+version: '3.0'
+services:
+  rain:
+    container_name: rain
+    build:
+      dockerfile: Dockerfile
